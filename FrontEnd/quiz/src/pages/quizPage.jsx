@@ -15,7 +15,7 @@ function Quiz() {
   let { value, user } = location.state || {};
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/${value}`)
+    fetch(`https://quiz-3rra.onrender.com/api/${value}`)
       .then((res) => res.json())
       .then((res) => {
         setQuestions(res);
@@ -65,7 +65,7 @@ function Quiz() {
       topic: value,
     };
 
-    fetch("http://localhost:5000/api/score", {
+    fetch("https://quiz-3rra.onrender.com/api/score", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload),

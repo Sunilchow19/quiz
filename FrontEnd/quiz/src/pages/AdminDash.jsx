@@ -6,7 +6,7 @@ export default function AdminDashboard() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/scores")
+      .get("https://quiz-3rra.onrender.com/api/scores")
       .then((res) => setScores(res.data))
       .catch((err) => console.error("Error fetching scores:", err));
   }, []);
