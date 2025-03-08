@@ -3,6 +3,10 @@
 ## 📝 Description
 This is a simple **Quiz Application** built using **React.js** and **Node.js** with MongoDB as the database. It allows users to answer quiz questions and see their scores. The application follows a structured architecture with separate models, controllers, and routes for different topics like HTML, CSS, JavaScript, React.js, Node.js, and Python.
 
+## To Login as ADMIN
+Username: Sunil
+Password: 123
+
 ## 🚀 Features
 - Fetches quiz questions from MongoDB.
 - Supports multiple topics (HTML, CSS, JavaScript, React.js, Node.js, Python).
