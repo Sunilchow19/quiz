@@ -5,4 +5,4 @@ const cssSchema = new mongoose.Schema({
     description: String,
 });
 
-module.exports = mongoose.model("Css", cssSchema, "Css");
+module.exports = mongoose.model("CSS", cssSchema, "CSS");
